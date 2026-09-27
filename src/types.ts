@@ -59,6 +59,7 @@ export interface IuranRecord {
 export interface User {
   id: string;
   username: string;
+  password: string;
   namaLengkap: string;
   email: string;
   role: 'admin' | 'pengurus' | 'ustadz';
